@@ -1,4 +1,6 @@
 
+
+/* Reset some default styles */
 * {
     margin: 0;
     padding: 0;
@@ -35,14 +37,18 @@ body {
 }
 
 .heading h1 {
-    font-size: 36px;
+    font-size: 32px;
     margin: 10px;
 }
-
+.heading h3{
+  color:#1a28b9;
+  margin:25px 0 0 0;
+  
+}
 .heading p {
-    margin:35px 0 0 20px;
+    margin:10px 0 -20px 0px;
     font-size: 20px;
-    color: #0c0c0c;
+    color: #2270ff;
     font-weight:bold;
 }
 
@@ -213,6 +219,9 @@ footer {
   
 @media (max-width: 500px) 
 {
+  .heading h1{
+    font-size:28px;
+  }
 .cardA {
    
     
