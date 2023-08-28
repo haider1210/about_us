@@ -221,7 +221,9 @@ footer {
     padding-bottom:20px;
   }
   
-  
+  .footer-info{
+    padding-bottom:150px;
+  }
 @media (max-width: 500px) 
 {
   .heading h1{
